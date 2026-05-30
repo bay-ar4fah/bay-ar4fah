@@ -1,0 +1,414 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="980"
+    height="260"
+    viewBox="0 0 980 260">
+
+<rect width="100%" height="100%" fill="#0d1117"/>
+
+<style>
+  .tile{
+    fill:#2ea043;
+    opacity:.45;
+    animation:pulse 2.4s infinite alternate;
+  }
+
+  .tile2{
+    fill:#3fb950;
+    opacity:.8;
+    animation:pulse2 3.4s infinite alternate;
+  }
+
+  .radar{
+    stroke:#58a6ff;
+    stroke-width:2;
+    fill:none;
+    opacity:.35;
+  }
+
+  .sweep{
+    transform-origin:160px 130px;
+    animation:sweep 4s linear infinite;
+  }
+
+  .alert{
+    animation:blink 1.4s infinite;
+  }
+
+  .title{
+    fill:#e6edf3;
+    font:700 24px sans-serif;
+  }
+
+  .sub{
+    fill:#58a6ff;
+    font:500 15px sans-serif;
+  }
+
+  @keyframes pulse{
+    from{opacity:.25}
+    to{opacity:.7}
+  }
+
+  @keyframes pulse2{
+    from{opacity:.4}
+    to{opacity:1}
+  }
+
+  @keyframes blink{
+    50%{opacity:.2}
+  }
+
+  @keyframes sweep{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+  }
+</style>
+
+<!-- Radar -->
+<circle cx="160" cy="130" r="95" class="radar"/>
+<circle cx="160" cy="130" r="65" class="radar"/>
+<circle cx="160" cy="130" r="35" class="radar"/>
+
+<line x1="160" y1="130"
+      x2="250" y2="130"
+      stroke="#58a6ff"
+      stroke-width="3"
+      class="sweep"/>
+
+<circle cx="120" cy="90" r="4" fill="#ff4d4d" class="alert"/>
+<circle cx="200" cy="150" r="4" fill="#ff4d4d" class="alert"/>
+<circle cx="170" cy="60" r="4" fill="#ff4d4d" class="alert"/>
+
+<!-- Contribution-style grid -->
+<rect x='320' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='334' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='348' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='362' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='376' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='390' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='404' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='418' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='432' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='446' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='460' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='474' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='488' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='502' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='516' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='530' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='544' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='558' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='572' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='586' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='600' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='614' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='628' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='642' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='656' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='670' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='684' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='698' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='712' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='726' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='740' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='754' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='768' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='782' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='796' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='810' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='824' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='838' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='852' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='866' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='880' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='894' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='908' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='922' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='936' y='35' width='10' height='10' rx='2' class='tile'/>
+<rect x='950' y='35' width='10' height='10' rx='2' class='tile2'/>
+<rect x='320' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='334' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='348' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='362' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='376' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='390' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='404' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='418' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='432' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='446' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='460' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='474' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='488' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='502' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='516' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='530' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='544' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='558' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='572' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='586' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='600' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='614' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='628' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='642' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='656' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='670' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='684' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='698' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='712' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='726' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='740' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='754' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='768' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='782' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='796' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='810' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='824' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='838' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='852' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='866' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='880' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='894' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='908' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='922' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='936' y='49' width='10' height='10' rx='2' class='tile2'/>
+<rect x='950' y='49' width='10' height='10' rx='2' class='tile'/>
+<rect x='320' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='334' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='348' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='362' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='376' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='390' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='404' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='418' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='432' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='446' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='460' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='474' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='488' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='502' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='516' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='530' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='544' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='558' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='572' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='586' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='600' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='614' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='628' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='642' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='656' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='670' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='684' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='698' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='712' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='726' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='740' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='754' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='768' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='782' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='796' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='810' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='824' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='838' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='852' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='866' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='880' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='894' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='908' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='922' y='63' width='10' height='10' rx='2' class='tile2'/>
+<rect x='936' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='950' y='63' width='10' height='10' rx='2' class='tile'/>
+<rect x='320' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='334' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='348' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='362' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='376' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='390' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='404' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='418' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='432' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='446' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='460' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='474' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='488' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='502' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='516' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='530' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='544' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='558' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='572' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='586' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='600' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='614' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='628' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='642' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='656' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='670' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='684' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='698' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='712' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='726' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='740' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='754' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='768' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='782' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='796' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='810' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='824' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='838' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='852' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='866' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='880' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='894' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='908' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='922' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='936' y='77' width='10' height='10' rx='2' class='tile'/>
+<rect x='950' y='77' width='10' height='10' rx='2' class='tile2'/>
+<rect x='320' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='334' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='348' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='362' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='376' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='390' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='404' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='418' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='432' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='446' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='460' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='474' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='488' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='502' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='516' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='530' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='544' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='558' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='572' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='586' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='600' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='614' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='628' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='642' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='656' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='670' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='684' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='698' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='712' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='726' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='740' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='754' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='768' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='782' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='796' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='810' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='824' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='838' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='852' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='866' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='880' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='894' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='908' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='922' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='936' y='91' width='10' height='10' rx='2' class='tile2'/>
+<rect x='950' y='91' width='10' height='10' rx='2' class='tile'/>
+<rect x='320' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='334' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='348' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='362' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='376' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='390' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='404' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='418' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='432' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='446' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='460' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='474' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='488' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='502' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='516' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='530' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='544' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='558' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='572' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='586' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='600' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='614' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='628' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='642' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='656' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='670' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='684' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='698' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='712' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='726' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='740' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='754' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='768' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='782' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='796' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='810' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='824' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='838' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='852' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='866' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='880' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='894' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='908' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='922' y='105' width='10' height='10' rx='2' class='tile2'/>
+<rect x='936' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='950' y='105' width='10' height='10' rx='2' class='tile'/>
+<rect x='320' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='334' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='348' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='362' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='376' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='390' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='404' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='418' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='432' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='446' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='460' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='474' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='488' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='502' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='516' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='530' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='544' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='558' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='572' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='586' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='600' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='614' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='628' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='642' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='656' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='670' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='684' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='698' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='712' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='726' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='740' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='754' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='768' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='782' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='796' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='810' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='824' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='838' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='852' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='866' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='880' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='894' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='908' y='119' width='10' height='10' rx='2' class='tile2'/>
+<rect x='922' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='936' y='119' width='10' height='10' rx='2' class='tile'/>
+<rect x='950' y='119' width='10' height='10' rx='2' class='tile2'/>
+
+<text x="30" y="235" class="title">
+📡 SOC Monitoring Console
+</text>
+
+<text x="30" y="255" class="sub">
+Monitoring activity • Detecting anomalies • Threat visibility
+</text>
+
+</svg>
