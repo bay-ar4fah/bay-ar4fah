@@ -1,31 +1,103 @@
 name: Generate Minefield
 
 on:
-  workflow_dispatch:
+workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-  
-    - name: Create SVG
-      run: |
-        mkdir -p dist
-        echo '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120">
-        <rect width="100%" height="100%" fill="#0d1117"/>
-        <rect x="40" y="40" width="20" height="20" fill="#2ea043"/>
-        <rect x="70" y="40" width="20" height="20" fill="#2ea043"/>
-        <text x="105" y="56" font-size="16">💣</text>
-        <text x="40" y="95" fill="#58a6ff" font-size="18">
-        Minefield Test
-        </text>
-        </svg>' > dist/minefield.svg
-  
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: dist
-        publish_branch: output
+	build:
+		runs-on: ubuntu-latest
+		steps:
+		  - name: Checkout
+			  uses: actions/checkout@v4
+
+		  - name: Create Minefield SVG
+			  run: |
+			  mkdir -p dist
+
+			  cat > dist/minefield.svg << 'EOF'
+			  <svg xmlns="http://www.w3.org/2000/svg" width="980" height="240" viewBox="0 0 980 240">
+
+			  <rect width="100%" height="100%" fill="#0d1117"/>
+
+			  <style>
+				.tile{
+				  fill:#8be28b;
+				  rx:3;
+				  animation:pulse 2.2s infinite alternate;
+				}
+
+				.tile2{
+				  fill:#2ea043;
+				  rx:3;
+				  animation:pulse 3s infinite alternate;
+				}
+
+				.bomb{
+				  font-size:14px;
+				  animation:explode 6s infinite;
+				}
+
+				.title{
+				  fill:#e6edf3;
+				  font:700 24px Segoe UI;
+				}
+
+				.sub{
+				  fill:#58a6ff;
+				  font:500 16px Segoe UI;
+				}
+
+				@keyframes pulse{
+				  from{opacity:.35}
+				  to{opacity:1}
+				}
+
+				@keyframes explode{
+				  0%,70%{opacity:0}
+				  85%,100%{opacity:1}
+				}
+			  </style>
+			  EOF
+
+			  for y in 0 1 2 3 4 5 6
+			  do
+				for x in $(seq 0 51)
+				do
+				  xpos=$((30 + x*18))
+				  ypos=$((30 + y*18))
+
+				  if [ $(( (x+y)%3 )) -eq 0 ]; then
+					color="tile"
+				  else
+					color="tile2"
+				  fi
+
+				  echo "<rect x='$xpos' y='$ypos' width='12' height='12' class='$color'/>" >> dist/minefield.svg
+				done
+			  done
+
+			  cat >> dist/minefield.svg << 'EOF'
+			  <!-- bombs -->
+			  <text x="180" y="70" class="bomb">💣</text>
+			  <text x="350" y="105" class="bomb">💥</text>
+			  <text x="520" y="52" class="bomb">💣</text>
+			  <text x="700" y="122" class="bomb">💥</text>
+			  <text x="860" y="88" class="bomb">💣</text>
+
+			  <text x="30" y="195" class="title">
+			  💣 Minefield Contribution
+			  </text>
+
+			  <text x="30" y="220" class="sub">
+			  Choose wisely. Some paths lead to compromise.
+			  </text>
+
+			  </svg>
+			  EOF
+
+		  - name: Deploy
+			uses: peaceiris/actions-gh-pages@v4
+			with:
+			  github_token: ${{ secrets.GITHUB_TOKEN }}
+			  publish_dir: dist
+			  publish_branch: output
