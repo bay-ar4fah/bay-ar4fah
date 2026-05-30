@@ -1,18 +1,18 @@
-name: Generate Minefield
+name: Generate Minefield Contribution
 
 on:
 schedule:
 - cron: "0 */12 * * *"
 workflow_dispatch:
 
+permissions:
+contents: write
+
 jobs:
 build:
 runs-on: ubuntu-latest
 
 ```
-permissions:
-  contents: write
-
 steps:
   - name: Checkout
     uses: actions/checkout@v4
@@ -20,39 +20,63 @@ steps:
   - name: Generate Minefield SVG
     run: |
       mkdir -p dist
+
       cat > dist/minefield.svg << 'EOF'
-      <svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+      <svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+
       <rect width="100%" height="100%" fill="#0d1117"/>
 
       <style>
-        .tile { fill:#8be28b; rx:5; animation: reveal 6s infinite; }
-        .bomb { fill:#ff4d4d; animation: explode 6s infinite; }
-        .safe { fill:#7ee787; animation: reveal 6s infinite; }
+      .tile{
+        fill:#2ea043;
+        rx:4;
+        animation: reveal 5s infinite alternate;
+      }
 
-        @keyframes reveal {
-          0% { opacity:0.15; }
-          30% { opacity:1; }
-          100% { opacity:1; }
-        }
+      .bomb{
+        animation: explode 7s infinite;
+      }
 
-        @keyframes explode {
-          0%,70% { opacity:0; }
-          80% { opacity:1; }
-          100% { opacity:1; }
-        }
+      .txt{
+        fill:#58a6ff;
+        font-size:22px;
+        font-family:Segoe UI;
+      }
+
+      @keyframes reveal{
+        0%{opacity:.35}
+        100%{opacity:1}
+      }
+
+      @keyframes explode{
+        0%,70%{opacity:0}
+        80%,100%{opacity:1}
+      }
       </style>
 
-      <!-- tiles -->
-      <rect x="40" y="40" width="35" height="35" class="safe"/>
-      <rect x="85" y="40" width="35" height="35" class="safe"/>
-      <rect x="130" y="40" width="35" height="35" class="bomb"/>
-      <text x="138" y="65" font-size="18">💥</text>
+      <!-- Minefield grid -->
+      <rect x="50" y="40" width="28" height="28" class="tile"/>
+      <rect x="85" y="40" width="28" height="28" class="tile"/>
+      <rect x="120" y="40" width="28" height="28" class="tile"/>
+      <text x="122" y="62" class="bomb">💣</text>
 
-      <rect x="175" y="40" width="35" height="35" class="safe"/>
-      <rect x="220" y="40" width="35" height="35" class="safe"/>
+      <rect x="155" y="40" width="28" height="28" class="tile"/>
+      <rect x="190" y="40" width="28" height="28" class="tile"/>
+      <rect x="225" y="40" width="28" height="28" class="tile"/>
 
-      <text x="40" y="130" fill="#58a6ff"
-      font-size="24">💣 Minefield Activity — Choose wisely.</text>
+      <rect x="50" y="75" width="28" height="28" class="tile"/>
+      <rect x="85" y="75" width="28" height="28" class="tile"/>
+      <text x="88" y="98" class="bomb">💥</text>
+
+      <rect x="120" y="75" width="28" height="28" class="tile"/>
+      <rect x="155" y="75" width="28" height="28" class="tile"/>
+      <rect x="190" y="75" width="28" height="28" class="tile"/>
+      <text x="193" y="98" class="bomb">💣</text>
+
+      <text x="50" y="170" class="txt">
+      💣 Minefield Contribution — Some tiles explode.
+      </text>
+
       </svg>
       EOF
 
