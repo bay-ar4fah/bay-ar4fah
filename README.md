@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm Bayu Surya Arafah</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&pause=1200&color=00D9FF&center=true&vCenter=true&width=950&lines=%F0%9F%9B%A1%EF%B8%8F+Security+Engineer;%F0%9F%94%B5+Blue+Team+%7C+SOC+Analyst;%F0%9F%94%8E+Threat+Hunter+%7C+CTI%2FOSINT;%F0%9F%A7%AC+DFIR+Enthusiast;%F0%9F%90%8D+Python+Security+Automation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=2500&pause=900&color=00F7FF&center=true&vCenter=true&width=1000&lines=%F0%9F%9B%A1%EF%B8%8F+Security+Engineer;%F0%9F%94%B5+Blue+Team+%7C+SOC+Operations;%F0%9F%94%8E+Threat+Hunting+%26+Incident+Investigation;%F0%9F%A7%A0+CTI+%2F+OSINT+Enthusiast;%F0%9F%90%8D+Python+Security+Automation" />
 </p>
 
 <p align="center">
