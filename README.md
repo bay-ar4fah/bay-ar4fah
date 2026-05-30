@@ -93,11 +93,11 @@ Research-focused YARA rules repository for malware detection and analysis.
 ## 📊 GitHub Statistics
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=bay-ar4fah&show_icons=true&theme=tokyonight"/>
+  <img src="https://raw.githubusercontent.com/bay-ar4fah/bay-ar4fah/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bay-ar4fah&layout=compact&theme=tokyonight"/>
+⚠️ Avoid the mines. Secure the grid.
 </p>
 
 ---
