@@ -58,9 +58,8 @@ Research-focused YARA rules repository for malware detection and analysis.
 
 ## 🌐 Connect With Me
 
-- 💼 LinkedIn: YOUR_LINKEDIN
+- 💼 LinkedIn: www.linkedin.com/in/bayu-surya-arafah/
 - 🌍 Website: www.ara-gencenter.com
-- 📧 Email: YOUR_EMAIL
 
 ---
 
