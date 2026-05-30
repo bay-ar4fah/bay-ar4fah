@@ -29,6 +29,10 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/Elastic-005571?style=flat-square&logo=elastic&logoColor=white"/>
 <img src="https://img.shields.io/badge/Wazuh-0264A5?style=flat-square&logo=wazuh&logoColor=white"/>
 <img src="https://img.shields.io/badge/Trend_Micro-E4002B?style=flat-square&logo=trendmicro&logoColor=white"/>
+<img src="https://img.shields.io/badge/Trellix-0B5FFF?style=flat-square"/>
+<img src="https://img.shields.io/badge/SentinelOne-6D28D9?style=flat-square"/>
+<img src="https://img.shields.io/badge/Microsoft_Defender-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
+<img src="https://img.shields.io/badge/ESET-00A651?style=flat-square"/>
 <img src="https://img.shields.io/badge/Carbon_Black-222222?style=flat-square&logo=vmware&logoColor=white"/>
 <img src="https://img.shields.io/badge/YARA-6A1B9A?style=flat-square"/>
 <img src="https://img.shields.io/badge/DLP-FF9800?style=flat-square"/>
