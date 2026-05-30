@@ -6,27 +6,26 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-steps:
-  - name: Checkout
-    uses: actions/checkout@v4
-
-  - name: Create SVG
-    run: |
-      mkdir -p dist
-      echo '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120">
-      <rect width="100%" height="100%" fill="#0d1117"/>
-      <rect x="40" y="40" width="20" height="20" fill="#2ea043"/>
-      <rect x="70" y="40" width="20" height="20" fill="#2ea043"/>
-      <text x="105" y="56" font-size="16">💣</text>
-      <text x="40" y="95" fill="#58a6ff" font-size="18">
-      Minefield Test
-      </text>
-      </svg>' > dist/minefield.svg
-
-  - name: Deploy
-    uses: peaceiris/actions-gh-pages@v4
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      publish_dir: dist
-      publish_branch: output
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+  
+    - name: Create SVG
+      run: |
+        mkdir -p dist
+        echo '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120">
+        <rect width="100%" height="100%" fill="#0d1117"/>
+        <rect x="40" y="40" width="20" height="20" fill="#2ea043"/>
+        <rect x="70" y="40" width="20" height="20" fill="#2ea043"/>
+        <text x="105" y="56" font-size="16">💣</text>
+        <text x="40" y="95" fill="#58a6ff" font-size="18">
+        Minefield Test
+        </text>
+        </svg>' > dist/minefield.svg
+  
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: dist
+        publish_branch: output
