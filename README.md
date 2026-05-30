@@ -92,12 +92,10 @@ Research-focused YARA rules repository for malware detection and analysis.
 
 ## 📊 GitHub Statistics
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/bay-ar4fah/bay-ar4fah/output/github-contribution-grid-snake-dark.svg" />
-</p>
+<h2 align="center">💣 Minefield Contributions</h2>
 
 <p align="center">
-⚠️ Avoid the mines. Secure the grid.
+  <img src="https://raw.githubusercontent.com/bay-ar4fah/bay-ar4fah/output/minefield.svg">
 </p>
 
 ---
