@@ -23,13 +23,40 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 
 ## 🛠️ Security Stack
 
-<p align="left">
-<img src="https://img.shields.io/badge/ELK-SIEM-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/EDR-Detection-red?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Tenable-VM-green?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Linux-Security-black?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Python-Automation-yellow?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/YARA-Malware-purple?style=for-the-badge"/>
+### 🦅 SIEM, XDR & Endpoint Security
+<p>
+<img src="https://img.shields.io/badge/Splunk-black?style=for-the-badge&logo=splunk"/>
+<img src="https://img.shields.io/badge/Wazuh-005571?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Elastic_Stack-005571?style=for-the-badge&logo=elastic"/>
+<img src="https://img.shields.io/badge/TrendMicro_Vision_One-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Carbon_Black-grey?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/YARA-purple?style=for-the-badge"/>
+</p>
+
+### 🧠 Threat Intelligence & Forensics
+<p>
+<img src="https://img.shields.io/badge/MISP-darkblue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OpenCTI-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Recorded_Future-darkred?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/IDS_Tower-0066cc?style=for-the-badge"/>
+</p>
+
+### 🤖 SOAR, Automation & Orchestration
+<p>
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n"/>
+<img src="https://img.shields.io/badge/Ansible-red?style=for-the-badge&logo=ansible"/>
+<img src="https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-black?style=for-the-badge&logo=githubactions"/>
+</p>
+
+### ☁️ Cloud, Infra & Network Security
+<p>
+<img src="https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Azure-blue?style=for-the-badge&logo=microsoftazure"/>
+<img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker"/>
+<img src="https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux"/>
+<img src="https://img.shields.io/badge/Fortinet-red?style=for-the-badge"/>
 </p>
 
 ---
