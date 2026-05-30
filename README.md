@@ -1,16 +1,69 @@
-## Hi there 👋
+<h1 align="center">👋 Hi, I'm Bayu Surya Arafah</h1>
 
-<!--
-**bay-ar4fah/bay-ar4fah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3 align="center">
+IT Security Engineer | SOC Analyst | Python Developer
+</h3>
 
-Here are some ideas to get you started:
+<p align="center">
+Focused on Security Operations, Incident Investigation, Threat Detection, and Security Automation.
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Professional Focus
+
+- 🛡️ Security Operations Center (SOC)
+- 🔎 Incident Investigation & Threat Hunting
+- ⚙️ Security Hardening
+- ☁️ Cloud & Infrastructure Security
+- 🐍 Python Security Automation
+- 🧬 Malware Detection & YARA Research
+
+---
+
+## 🛠️ Security Stack
+
+<p align="left">
+<img src="https://img.shields.io/badge/ELK-SIEM-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/EDR-Detection-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Tenable-VM-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Linux-Security-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Python-Automation-yellow?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/YARA-Malware-purple?style=for-the-badge"/>
+</p>
+
+---
+
+## 🔥 Highlight Projects
+
+### 🔐 AraSecure
+AES-256-GCM Offline File Encryption Tool with checksum and integrity verification.
+
+### 🧬 Aradbase-YARA
+Research-focused YARA rules repository for malware detection and analysis.
+
+---
+
+## 📊 GitHub Statistics
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=bay-ar4fah&show_icons=true&theme=tokyonight"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bay-ar4fah&layout=compact&theme=tokyonight"/>
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+- 💼 LinkedIn: YOUR_LINKEDIN
+- 🌍 Website: www.ara-gencenter.com
+- 📧 Email: YOUR_EMAIL
+
+---
+
+<p align="center">
+"Cybersecurity is not only about protection, but also about resilience and continuous improvement."
+</p>
