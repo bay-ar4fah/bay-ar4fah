@@ -16,7 +16,7 @@ steps:
   - name: Checkout
     uses: actions/checkout@v4
 
-  - name: Generate Minefield Grid
+  - name: Generate Minefield SVG
     run: |
       mkdir -p dist
 
@@ -56,26 +56,23 @@ steps:
         }
       </style>
 
-      <!-- contribution style rows -->
-
-      <!-- week row 1 -->
+      <!-- contribution-like tiles -->
       <rect x="20" y="30" width="12" height="12" class="safe"/>
       <rect x="38" y="30" width="12" height="12" class="safe"/>
       <rect x="56" y="30" width="12" height="12" class="safe"/>
       <text x="58" y="40" class="bomb">💣</text>
+
       <rect x="74" y="30" width="12" height="12" class="safe"/>
       <rect x="92" y="30" width="12" height="12" class="safe"/>
       <rect x="110" y="30" width="12" height="12" class="safe"/>
 
-      <!-- row 2 -->
       <rect x="20" y="48" width="12" height="12" class="safe"/>
       <rect x="38" y="48" width="12" height="12" class="safe"/>
       <text x="40" y="58" class="bomb">💥</text>
+
       <rect x="56" y="48" width="12" height="12" class="safe"/>
       <rect x="74" y="48" width="12" height="12" class="safe"/>
       <rect x="92" y="48" width="12" height="12" class="safe"/>
-
-      <!-- repeat until heatmap width -->
 
       <text x="20" y="150" class="title">
       💣 Minefield Contributions — Avoid the explosion.
