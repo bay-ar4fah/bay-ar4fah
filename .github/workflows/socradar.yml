@@ -1,0 +1,137 @@
+name: Generate SOC Radar
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create SOC Radar SVG
+        run: |
+          mkdir -p dist
+
+          cat << 'EOF' > dist/radar.svg
+          <svg xmlns="http://www.w3.org/2000/svg"
+              width="980"
+              height="260"
+              viewBox="0 0 980 260">
+
+          <rect width="100%" height="100%" fill="#0d1117"/>
+
+          <style>
+            .tile{
+              fill:#2ea043;
+              opacity:.45;
+              animation:pulse 2.4s infinite alternate;
+            }
+
+            .tile2{
+              fill:#3fb950;
+              opacity:.8;
+              animation:pulse2 3.4s infinite alternate;
+            }
+
+            .radar{
+              stroke:#58a6ff;
+              stroke-width:2;
+              fill:none;
+              opacity:.35;
+            }
+
+            .sweep{
+              transform-origin:160px 130px;
+              animation:sweep 4s linear infinite;
+            }
+
+            .alert{
+              animation:blink 1.4s infinite;
+            }
+
+            .title{
+              fill:#e6edf3;
+              font:700 24px sans-serif;
+            }
+
+            .sub{
+              fill:#58a6ff;
+              font:500 15px sans-serif;
+            }
+
+            @keyframes pulse{
+              from{opacity:.25}
+              to{opacity:.7}
+            }
+
+            @keyframes pulse2{
+              from{opacity:.4}
+              to{opacity:1}
+            }
+
+            @keyframes blink{
+              50%{opacity:.2}
+            }
+
+            @keyframes sweep{
+              from{transform:rotate(0deg)}
+              to{transform:rotate(360deg)}
+            }
+          </style>
+
+          <!-- Radar -->
+          <circle cx="160" cy="130" r="95" class="radar"/>
+          <circle cx="160" cy="130" r="65" class="radar"/>
+          <circle cx="160" cy="130" r="35" class="radar"/>
+
+          <line x1="160" y1="130"
+                x2="250" y2="130"
+                stroke="#58a6ff"
+                stroke-width="3"
+                class="sweep"/>
+
+          <circle cx="120" cy="90" r="4" fill="#ff4d4d" class="alert"/>
+          <circle cx="200" cy="150" r="4" fill="#ff4d4d" class="alert"/>
+          <circle cx="170" cy="60" r="4" fill="#ff4d4d" class="alert"/>
+
+          <!-- Contribution-style grid -->
+          EOF
+
+          for y in 0 1 2 3 4 5 6
+          do
+            for x in $(seq 0 45)
+            do
+              xpos=$((320 + x*14))
+              ypos=$((35 + y*14))
+
+              if [ $(( (x+y)%3 )) -eq 0 ]; then
+                style="tile2"
+              else
+                style="tile"
+              fi
+
+              echo "<rect x='$xpos' y='$ypos' width='10' height='10' rx='2' class='$style'/>" >> dist/radar.svg
+            done
+          done
+
+          cat >> dist/radar.svg << 'EOF'
+
+          <text x="30" y="235" class="title">
+          📡 SOC Monitoring Console
+          </text>
+
+          <text x="30" y="255" class="sub">
+          Monitoring activity • Detecting anomalies • Threat visibility
+          </text>
+
+          </svg>
+          EOF
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          publish_branch: output
