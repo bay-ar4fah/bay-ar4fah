@@ -1,9 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120">
-<rect width="100%" height="100%" fill="#0d1117"/>
-<rect x="40" y="40" width="20" height="20" fill="#2ea043"/>
-<rect x="70" y="40" width="20" height="20" fill="#2ea043"/>
-<text x="105" y="56" font-size="16">💣</text>
-<text x="40" y="95" fill="#58a6ff" font-size="18">
-Minefield Test
-</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="240" viewBox="0 0 980 240">
+  <rect width="100%" height="100%" fill="#0d1117"/>
+
+  <style>
+    .tile { fill:#8be28b; animation:pulse 2.2s infinite alternate; }
+    .tile2 { fill:#2ea043; animation:pulse 3s infinite alternate; }
+    .bomb { font-size:14px; animation:explode 6s infinite; }
+    .title { fill:#e6edf3; font:700 24px sans-serif; }
+    .sub { fill:#58a6ff; font:500 16px sans-serif; }
+
+    @keyframes pulse {
+      from { opacity:.35; }
+      to { opacity:1; }
+    }
+
+    @keyframes explode {
+      0%,70% { opacity:0; }
+      85%,100% { opacity:1; }
+    }
+  </style>
+
+  <!-- Grid -->
+  <rect x="30" y="30" width="12" height="12" class="tile"/>
+  <rect x="48" y="30" width="12" height="12" class="tile2"/>
+  <rect x="66" y="30" width="12" height="12" class="tile"/>
+  <rect x="84" y="30" width="12" height="12" class="tile2"/>
+  <rect x="102" y="30" width="12" height="12" class="tile"/>
+  <rect x="120" y="30" width="12" height="12" class="tile2"/>
+
+  <!-- Bombs -->
+  <text x="180" y="70" class="bomb">💣</text>
+  <text x="340" y="90" class="bomb">💥</text>
+  <text x="520" y="60" class="bomb">💣</text>
+
+  <text x="30" y="190" class="title">
+    💣 Minefield Contribution
+  </text>
+
+  <text x="30" y="220" class="sub">
+    Choose wisely. Some paths lead to compromise.
+  </text>
 </svg>
