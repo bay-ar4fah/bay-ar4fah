@@ -43,14 +43,14 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 
 <p align="center">
 <img src="https://img.shields.io/badge/MISP-1E88E5?style=flat-square&logo=misp&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenCTI-1565C0?style=flat-square"/>
+<img src="https://img.shields.io/badge/OpenCTI-1565C0?style=flat-square&logo=opencti&logoColor=white"/>
 <img src="https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white"/>
-<img src="https://img.shields.io/badge/Recorded_Future-E53935?style=flat-square"/>
+<img src="https://img.shields.io/badge/Recorded_Future-E53935?style=flat-square&logo=recordedfuture&logoColor=white"/>
 <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
-<img src="https://img.shields.io/badge/Autopsy-424242?style=flat-square"/>
-<img src="https://img.shields.io/badge/Volatility-6A1B9A?style=flat-square"/>
-<img src="https://img.shields.io/badge/OSINT-00796B?style=flat-square"/>
-<img src="https://img.shields.io/badge/YARA-6A1B9A?style=flat-square"/>
+<img src="https://img.shields.io/badge/Autopsy-424242?style=flat-square&logo=autopsy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Volatility-6A1B9A?style=flat-square&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/OSINT-00796B?style=flat-square&logo=opensourceinitiative&logoColor=white"/>
+<img src="https://img.shields.io/badge/YARA-6A1B9A?style=flat-square&logo=yara&logoColor=white"/>
 </p>
 
 <h4 align="center">🤖 Automation • Development</h4>
