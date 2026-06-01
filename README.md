@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hi, I'm Bayu Surya Arafah</h1>
+  <h1 align="center">👋 Hi, I'm Bayu Surya Arafah</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=2500&pause=900&color=00F7FF&center=true&vCenter=true&width=1000&lines=%F0%9F%9B%A1%EF%B8%8F+Security+Engineer;%F0%9F%94%B5+Blue+Team+%7C+SOC+Operations;%F0%9F%94%8E+Threat+Hunting+%26+Incident+Investigation;%F0%9F%A7%A0+CTI+%2F+OSINT+Enthusiast;%F0%9F%90%8D+Python+Security+Automation" />
@@ -47,7 +47,7 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/OpenCTI-1565C0?style=flat-square&logo=opencti&logoColor=white"/>
 <img src="https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white"/>
 <img src="https://img.shields.io/badge/Recorded_Future-E53935?style=flat-square&logo=recordedfuture&logoColor=white"/>
-<img src="https://img.shields.io/badge/CYFIRMA-FF6F00?style=flat-square&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/CYFIRMA-FF6F00?style=flat-square&logo=cyfirma&logoColor=white"/>
 <img src="https://img.shields.io/badge/Mandiant-EA4335?style=flat-square&logo=mandiant&logoColor=white"/>
 <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
 <img src="https://img.shields.io/badge/Autopsy-424242?style=flat-square&logo=autopsy&logoColor=white"/>
