@@ -26,8 +26,8 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <h4 align="center">🦅 SIEM • Detection • Endpoint Security</h4>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elastic&logoColor=white"/>
 <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elastic&logoColor=white"/>
 <img src="https://img.shields.io/badge/Wazuh-0264A5?style=flat-square&logo=wazuh&logoColor=white"/>
 <img src="https://img.shields.io/badge/Trend_Micro-E4002B?style=flat-square&logo=trendmicro&logoColor=white"/>
 <img src="https://img.shields.io/badge/Trellix-FF3B30?style=flat-square&logo=trellix&logoColor=white"/>
