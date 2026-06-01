@@ -67,6 +67,18 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=white"/>
 </p>
 
+<h4 align="center">🛡️ IDS / IPS • Threat Detection</h4>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Snort-CC0000?style=flat-square&logo=snort&logoColor=white"/>
+<img src="https://img.shields.io/badge/Suricata-EF3B2D?style=flat-square&logo=suricata&logoColor=white"/>
+<img src="https://img.shields.io/badge/Zeek-1F6FEB?style=flat-square&logo=zeek&logoColor=white"/>
+<img src="https://img.shields.io/badge/TippingPoint-EE3124?style=flat-square&logo=trendmicro&logoColor=white"/>
+<img src="https://img.shields.io/badge/FortiGate_IPS-EE3124?style=flat-square&logo=fortinet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Palo_Alto_Threat_Prevention-F04E23?style=flat-square&logo=paloaltonetworks&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cisco_Secure_IPS-1BA0D7?style=flat-square&logo=cisco&logoColor=white"/>
+</p>
+
 <h4 align="center">☁️ Cloud • Infra • Network Security</h4>
 
 <p align="center">
