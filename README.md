@@ -26,18 +26,18 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <h4 align="center">🦅 SIEM • Detection • Endpoint Security</h4>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Elastic-005571?style=flat-square&logo=elastic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elastic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white"/>
 <img src="https://img.shields.io/badge/Wazuh-0264A5?style=flat-square&logo=wazuh&logoColor=white"/>
 <img src="https://img.shields.io/badge/Trend_Micro-E4002B?style=flat-square&logo=trendmicro&logoColor=white"/>
 <img src="https://img.shields.io/badge/Trellix-FF3B30?style=flat-square&logo=trellix&logoColor=white"/>
-<img src="https://img.shields.io/badge/SentinelOne-7B2EFF?style=flat-square&logo=sentinelone&logoColor=white"/>
+<img src="https://img.shields.io/badge/SentinelOne_EDR-7B2EFF?style=flat-square&logo=sentinelone&logoColor=white"/>
 <img src="https://img.shields.io/badge/Microsoft_Defender-0078D4?style=flat-square&logo=microsoftdefender&logoColor=white"/>
 <img src="https://img.shields.io/badge/ESET-00A651?style=flat-square&logo=eset&logoColor=white"/>
 <img src="https://img.shields.io/badge/Carbon_Black-222222?style=flat-square&logo=vmware&logoColor=white"/>
 <img src="https://img.shields.io/badge/Cortex_XDR-F04E23?style=flat-square&logo=paloaltonetworks&logoColor=white"/>
 <img src="https://img.shields.io/badge/YARA-6A1B9A?style=flat-square&logo=yara&logoColor=white"/>
 <img src="https://img.shields.io/badge/DLP-FF9800?style=flat-square&logo=datadog&logoColor=white"/>
-<img src="https://img.shields.io/badge/EDR-D32F2F?style=flat-square&logo=securityscorecard&logoColor=white"/>
 </p>
 
 <h4 align="center">🧠 Threat Intelligence (CTI) • Forensics</h4>
