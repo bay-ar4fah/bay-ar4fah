@@ -37,7 +37,19 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/Carbon_Black-222222?style=flat-square&logo=vmware&logoColor=white"/>
 <img src="https://img.shields.io/badge/Cortex_XDR-F04E23?style=flat-square&logo=paloaltonetworks&logoColor=white"/>
 <img src="https://img.shields.io/badge/YARA-6A1B9A?style=flat-square&logo=yara&logoColor=white"/>
-<img src="https://img.shields.io/badge/DLP-FF9800?style=flat-square&logo=datadog&logoColor=white"/>
+<img src="https://img.shields.io/badge/NDLP/DLP-FF9800?style=flat-square&logo=trellix&logoColor=white"/>
+</p>
+
+<h4 align="center">🛡️ IDS / IPS • Threat Detection</h4>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Snort-CC0000?style=flat-square&logo=snort&logoColor=white"/>
+<img src="https://img.shields.io/badge/Suricata-EF3B2D?style=flat-square&logo=suricata&logoColor=white"/>
+<img src="https://img.shields.io/badge/Zeek-1F6FEB?style=flat-square&logo=zeek&logoColor=white"/>
+<img src="https://img.shields.io/badge/TippingPoint-EE3124?style=flat-square&logo=trendmicro&logoColor=white"/>
+<img src="https://img.shields.io/badge/FortiGate_IPS-EE3124?style=flat-square&logo=fortinet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Palo_Alto_Threat_Prevention-F04E23?style=flat-square&logo=paloaltonetworks&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cisco_Secure_IPS-1BA0D7?style=flat-square&logo=cisco&logoColor=white"/>
 </p>
 
 <h4 align="center">🧠 Threat Intelligence (CTI) • Forensics</h4>
@@ -65,18 +77,6 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=white"/>
-</p>
-
-<h4 align="center">🛡️ IDS / IPS • Threat Detection</h4>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Snort-CC0000?style=flat-square&logo=snort&logoColor=white"/>
-<img src="https://img.shields.io/badge/Suricata-EF3B2D?style=flat-square&logo=suricata&logoColor=white"/>
-<img src="https://img.shields.io/badge/Zeek-1F6FEB?style=flat-square&logo=zeek&logoColor=white"/>
-<img src="https://img.shields.io/badge/TippingPoint-EE3124?style=flat-square&logo=trendmicro&logoColor=white"/>
-<img src="https://img.shields.io/badge/FortiGate_IPS-EE3124?style=flat-square&logo=fortinet&logoColor=white"/>
-<img src="https://img.shields.io/badge/Palo_Alto_Threat_Prevention-F04E23?style=flat-square&logo=paloaltonetworks&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cisco_Secure_IPS-1BA0D7?style=flat-square&logo=cisco&logoColor=white"/>
 </p>
 
 <h4 align="center">☁️ Cloud • Infra • Network Security</h4>
