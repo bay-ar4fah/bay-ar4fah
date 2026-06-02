@@ -98,10 +98,13 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 ## 🔥 Highlight Projects
 
 ### 🔐 AraSecure
-AES-256-GCM Offline File Encryption Tool with checksum and integrity verification.
+AES-256-GCM offline file encryption tool with checksum and integrity verification.
 
 ### 🧬 Aradbase-YARA
-Research-focused YARA rules repository for malware detection and analysis.
+Research focused YARA rules repository for malware detection and analysis.
+
+### ⚡ Aradbase-Sigma
+Behavior-based Sigma detection rules derived from Aradbase-YARA malware detection research.
 
 ---
 
