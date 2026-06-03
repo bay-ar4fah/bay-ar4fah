@@ -59,11 +59,14 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/OpenCTI-1565C0?style=flat-square&logo=opencti&logoColor=white"/>
 <img src="https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white"/>
 <img src="https://img.shields.io/badge/Recorded_Future-E53935?style=flat-square&logo=recordedfuture&logoColor=white"/>
-<img src="https://img.shields.io/badge/CYFIRMA-FF6F00?style=flat-square&logo=cyfirma&logoColor=white"/>
+<img src="https://img.shields.io/badge/CYFIRMA-FF6F00?style=flat-square&logo=googlecloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/Mandiant-EA4335?style=flat-square&logo=mandiant&logoColor=white"/>
 <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
 <img src="https://img.shields.io/badge/Autopsy-424242?style=flat-square&logo=autopsy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Volatility-6A1B9A?style=flat-square&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/EnCase-1A237E?style=flat-square&logo=windows&logoColor=white"/>
+<img src="https://img.shields.io/badge/Magnet_AXIOM-00ACC1?style=flat-square&logo=magento&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cellebrite-FF6F00?style=flat-square&logo=android&logoColor=white"/>
 <img src="https://img.shields.io/badge/OSINT-00796B?style=flat-square&logo=opensourceinitiative&logoColor=white"/>
 <img src="https://img.shields.io/badge/YARA-6A1B9A?style=flat-square&logo=yara&logoColor=white"/>
 </p>
