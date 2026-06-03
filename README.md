@@ -23,7 +23,7 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 
 ## 🛠️ Security Stack
 
-<h4 align="center">🦅 SIEM • Detection • Endpoint Security</h4>
+<h4 align="center">🦅 SIEM - Detection & Endpoint Security</h4>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white"/>
@@ -40,7 +40,7 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/NDLP/DLP-FF9800?style=flat-square&logo=trellix&logoColor=white"/>
 </p>
 
-<h4 align="center">🛡️ IDS / IPS • Threat Detection</h4>
+<h4 align="center">🛡️ IDS / IPS & Threat Detection</h4>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Snort-CC0000?style=flat-square&logo=snort&logoColor=white"/>
@@ -52,7 +52,7 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/Cisco_Secure_IPS-1BA0D7?style=flat-square&logo=cisco&logoColor=white"/>
 </p>
 
-<h4 align="center">🧠 Threat Intelligence (CTI) • Forensics</h4>
+<h4 align="center">🧠 Threat Intelligence (CTI) & Forensics</h4>
 
 <p align="center">
 <img src="https://img.shields.io/badge/MISP-1E88E5?style=flat-square&logo=misp&logoColor=white"/>
@@ -71,7 +71,7 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/YARA-6A1B9A?style=flat-square&logo=yara&logoColor=white"/>
 </p>
 
-<h4 align="center">🤖 Automation • Development</h4>
+<h4 align="center">🤖 Automation & Development</h4>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -82,7 +82,7 @@ Focused on Security Operations, Incident Investigation, Threat Detection, and Se
 <img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=white"/>
 </p>
 
-<h4 align="center">☁️ Cloud • Infra • Network Security</h4>
+<h4 align="center">☁️ Cloud - Infra & Network Security</h4>
 
 <p align="center">
 <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
